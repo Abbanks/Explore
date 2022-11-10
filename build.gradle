@@ -1,13 +1,13 @@
 buildscript {
     ext {
         compose_version = '1.4.0-alpha01'
-        kotlin_version = '1.5.31'
+        kotlin_version = '1.7.20'
         coroutines_version = '1.6.4'
-        dagger_version = "2.38.1"
+        hilt_version = "2.44"
     }
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-serialization:$kotlin_version"
-        classpath "com.google.dagger:hilt-android-gradle-plugin:$dagger_version"
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
     }
 }// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
